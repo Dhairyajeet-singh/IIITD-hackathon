@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" href="./Resources/favicon.ico" />
+    <meta
+      name="description"
+      content="There are pages where we can detect medical issues by entering our symptoms,
+      a page where we have an easy and anonymous access to the gynecologist.
+      There is also an educational blog page where you can get
+      knowledge about STDs, UTIs and othee female health realated problems."
+    />
+    <title>Healthy-HER</title>
+    <link rel="stylesheet" href="./Style/style.css" />
+  </head>
+  <body>
+    <!---------------------------------------- Navbar  --------------------------------------------------->
+    <nav>
+      <input type="checkbox" id="check" />
+      <label for="check" class="checkbtn">
+        <i class="fas fa-bars"></i>
+      </label>
+      <label class="logo"><img src="./Resources/wh.png" alt="logo"></label>
+      <ul>
+        <li><a href="Home.html">About Us</a></li>
+        <li><a href="index.html">Detect Medical Issues</a></li>
+        <li><a class="active" href="SolarPanelChecker.html">Gynecologist Visit</a></li>
+        <li><a href="blogs.html">Educational blogs</a></li>
+        <li><a href="ContactUs.html">Contact Us</a></li>
+      </ul>
+    </nav>
+
+    <div id="solarPanel">
+      <h1 class="heading">Enter your age</h1>
+      <button class="btn">Above 18</button>  <button class="btn">Minor</button>
+      <div class="inputDetails">
+        <h1 class="heads">Enter your phone number(if 18+)</h1>
+        <input class="input1" type="int" placeholder="number" />
+      </div>
+      <div class="inputDetails">
+        <h1 class="heads">Enter legal guardian's name</h1>
+        <input class="input1" type="char" placeholder="name" />
+      </div>
+      <div class="inputDetails">
+        <h1 class="heads">Enter guardian's number </h1>
+        <input class="input1" type="int" placeholder="contact number" />
+      </div>
+      <div class="inputDetails">
+        <h1 class="heads">Enter guardian's mail id</h1>
+        <input class="input1" type="char" placeholder="mail" />
+      </div>
+      <div class="inputDetails">
+        <h1 class="heads">First time visit?</h1>
+        <input class="input1" type="char" placeholder="yes/no" />
+      </div>
+      <button class="btn">Add</button>
+    </div>
+    <div class="table">
+      <div class="table-title">
+        <h3>Your details</h3>
+      </div>
+      <table class="table-height">
+        <tbody class="table-hover">
+          <tr>
+            <td class="text-left">Your number</td>
+            <td class="text-left">9898989898</td>
+          </tr>
+        </tbody>
+      </table>
+    <div class="table">
+      <div class="table-title">
+        <h3>Guardian details</h3>
+      </div>
+      <table class="table-fill">
+        <tbody class="table-hover">
+          <tr>
+            <td class="text-left">guardian's name</td>
+            <td class="text-left">Mahesh</td>
+          </tr>
+          <tr>
+            <td class="text-left">guardian's number</td>
+            <td class="text-left">8989893445</td>
+          </tr>
+          <tr>
+            <td class="text-left">guardian's mail id </td>
+            <td class="text-left">mahesh345@gmail.com</td>
+          </tr>
+          <tr>
+            <td class="text-left">First time visit</td>
+            <td class="text-left">yes</td>
+          </tr>
+          <tr>
+            <td class="text-left s">Cost of visit</td>
+            <td class="text-left s">Free</td>
+          </tr>
+          <!-- <tr>
+            <td class="text-left">Saved electricity bill</td>
+            <td class="text-left">Rs. 3000 </td>
+          </tr> -->
+        </tbody>
+      </table>
+    </div>
+  </body>
+</html>
