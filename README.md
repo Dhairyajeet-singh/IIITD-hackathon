@@ -3,4 +3,4 @@ Our platform is dedicated to providing a safe and confidential space for women t
 
 Live link for prototype website :  https://dhairyajeet-singh.github.io/IIITD-hackathon/
 
-Link for PPT : https://drive.google.com/file/d/1PqKWt7X0sMNXFG9guLK07d4cQn9Ubg25/view?usp=sharing
+Link for PPT : https://www.canva.com/design/DAFxOLMht1o/toCb7Y3vRfAgu0sicZZyEA/edit?utm_content=DAFxOLMht1o&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton
